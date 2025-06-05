@@ -73,7 +73,7 @@ function users(page) {
       });
   }
   function getUser(idUser){
-    const REQRES_ENDPOINT = "https://fakestoreapi.com/users"+idUser;
+    const REQRES_ENDPOINT = "https://fakestoreapi.com/users/{id}"+idUser;
     fetch(REQRES_ENDPOINT, {
       method: "GET",
       headers: {

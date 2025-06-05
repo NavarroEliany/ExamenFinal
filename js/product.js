@@ -169,7 +169,6 @@ function saveProduct(){
         const title = document.getElementById('title').value
         const price = document.getElementById('price').value
         const description = document.getElementById('description').value
-        const categoryId = document.getElementById('categoryId').value
         const images = [document.getElementById('images').value]
         const user = {title, price, description, categoryId, images}
 
